@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>IDOLS</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+
+		html, body{
+			height: 100%;
+		}
+
+		body {
+			font-family: arial, sans-serif;
+			font-size: 1.125rem;
+			color: #fff;
+			}
+	#video-background {
+    	position: fixed;
+      	right: 0;
+    	bottom: 0;
+    	min-width: 100%;
+   		min-height: 100%;
+      	width: auto;
+      	height: auto;
+      	z-index: -100;
+   	}
+   	#header img {
+		width: 15%;
+		float: left;
+	}
+   	#header {
+	background-color: #0ae8ffb5;
+	color: #fff;
+	font-size: 2.30rem;
+	text-align: center;
+	padding: 0 0;
+	margin-bottom: 15px;
+	overflow: hidden;
+	}
+	#header p {
+		text-align: center;
+	}
+
+	#c_m_squid {
+	width: 30%;
+	box-shadow: 0 0 268px 7px rgba(0, 255, 0, 0.5), 0 0 30px 10px rgba(255, 0, 255, 0.59)	
+	}
+	
+	#sis {
+		font-size: 40px;
+        background: -webkit-linear-gradient(90deg, green, purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+	}
+
+	#sisters {
+	width: 9%;
+	}
+
+	#text_1 {
+	background: linear-gradient(to right, #0F0, #808);
+	}
+
+	#off {
+		width: 10%;
+	}
+	#pearl {
+		font-size: 40px;
+        background: -webkit-linear-gradient(90deg, cyan, purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+	}
+	#p_m_hook {
+		box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.84), 0 0 20px 10px rgba(255, 20, 147, 0.77);
+	}
+
+	#text_2 {
+	background: linear-gradient(to right, #07EAEA, #FF1493);
+	}
+
+	#deep {
+		width: 9%;
+	}
+	#frye {
+		font-size: 46px;
+        background: -webkit-linear-gradient(90deg, red, yellow, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+	}
+	#s_f_r_cut {
+		box-shadow: 0 0 20px 10px rgba(0, 0, 255, 1), 0 0 20px 10px rgba(255, 255, 0, 1);
+	}
+	#text_3 {
+	background: linear-gradient(to bottom right, #F00, #FFFF00F0, #00F);
+	}
+
+/*	listas*/
+	
+		#marie {
+		justify-content: space-around;
+		display: flex;
+		padding: 0px;
+	}
+
+	#marina {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+	}
+	#shiver {
+		display: flex;
+		padding: 10px;
+	}
+
+		/*media quieres*/
+		@media print {
+			body {
+				color: blue;
+			}
+			img {
+				display: none;
+			}
+		}
+
+		@media screen and (min-width: 501px) (max-width: 992px), (min-width: 1100px) and (max-width: 1200px) {
+			body {
+				background-color: #e0e0e0
+			}
+			div {
+				margin: 0 0.98em;
+			}
+			img {
+				width: 45%;
+			}
+			h1 {
+				font-size: 1.5em;
+			}
+			p {
+				font-size: 1.09em;
+			}
+		}
+
+		@media screen and (min-width: 501px) and (max-width: 500px) {
+			div {
+				margin: 0 0.95em;
+			}
+			img {
+				width: 100%;
+				margin-bottom: 0.95em;
+			}
+			h1{
+				font-size: 1.2em;
+			}
+			p {
+				font-size: 0.95em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- cabezera -->
+	<div id="header">
+		<a id="logo" href="index.html"><img src="images/logotipo.png" alt="logotipo"></a>
+		<p>Idols,Historia y Albumes</p>
+	</div>
+	<video id="video-background" autoplay muted loop>
+    			<source src="idol_back.mp4" type="video/mp4">
+    		</video>
+	<div>
+		<h1>Idolas</h1>
+		<p>En Splatoon, las "idols" son personajes populares y prominentes dentro del universo del juego. Representan figuras ídolos o celebridades que son adoradas por los personajes del juego y por los jugadores. Las idols más destacadas en Splatoon son:</p>
+
+		<p id="text_1"><img id="sisters" src="images/squid-sisters-logo.jpg">Squid Sisters: También conocidas como las Calamarciñas, Callie y Marie son dos Inklings hermanas que se desempeñan como presentadoras de noticias y cantantes en el mundo de Splatoon. Son muy queridas por la comunidad de jugadores y desempeñan un papel importante en la trama del juego.</p>
+		<p id="text_2"><img id="off" src="images/off_the_hook.jpg">Off the Hook: Conocidas como las Cefalopop, Pearl y Marina son las sucesoras de Callie y Marie como presentadoras de noticias y cantantes. Pearl es una Inkling con forma de almeja y Marina es una Octoling. Juntas, forman un dúo dinámico que ha ganado popularidad entre los fans de Splatoon.</p>
+		<p id="text_3"><img id="deep" src="images/deep_cut.jpg">Deep Cut: conocidos como el Clan Surimi, shiver,frye y rayan son presentadores de noticias de otro lado mas lejos de inkopolis plaza y square,son amigos y son pertenecientes de splatland con el rol de ser ademas unos presentadores de noticias, unos caza recompesas </p>
+
+		<p>Estas idols no solo proporcionan entretenimiento dentro del juego, sino que también influyen en eventos y desafíos especiales que ocurren dentro del mundo de Splatoon. Su música y su estilo distintivos las han convertido en personajes queridos por los jugadores y han contribuido en gran medida a la atmósfera única y vibrante del juego.</p>
+
+		<h1>QUIENES SON</h1>
+
+		<h2>quienes son las<p id="sis">calamarciñas</p></h2>
+		<img id="c_m_squid" src="images/splatoon1.jpg" alt="squid-sisters_image">
+		<p>las "calamarciñas" son unas idolas famosas del popular juego llamado "splatoon",estas son mayormente conocidas por su televisora noticiera que anuncian nuevos escenarios,armas,eventos y festividades</p>
+		<p>las calamarciñas se conforman de 2 idolas llamadas "Callie" y "Marie",estas son primas y se juntas para formar incriebles canciones y tener eventos de las festividades ya lo sean "splatoween" y "frostyfest".Estas no solo son idolas, si no que son conocidas por formar parte de un equipo de agentes llamado "squidbeak" estas tienen de posicion agentes,mayor mente conocidas como aente 1 y 2</p>
+		<p>Callie: Es una Inkling con un estilo alegre y enérgico. Su atuendo suele ser de color rosa y tiene una marca de corazón en la parte lateral de la cabeza. Callie es conocida por su personalidad extrovertida y por ser optimista.</p>
+		<p>Marie: Es la hermana de Callie y también es una Inkling. A diferencia de su hermana, Marie tiene una personalidad más reservada y sarcástica. Suele vestir de color verde y tiene una marca de trebol en la parte lateral de la cabeza.</p>
+		<p>Juntas, Callie y Marie forman las Squid Sisters y desempeñan varios roles en el juego Splatoon. Son presentadoras de noticias y comentaristas durante los eventos del juego, además de ser cantantes y artistas populares en el mundo de Splatoon.</p>
+
+		<h2>quienes son <p id="pearl">las cefalopop</p></h2>
+		<img id="p_m_hook" src="images/cefalopop.jpg" alt="no jalo xD">
+		<p>Off the Hook es otro dúo de personajes prominente en el mundo de Splatoon, siendo sucesores de las Squid Sisters. Está formado por:</p>
+		<p>Pearl: Es una Inkling con forma de almeja. Es conocida por su actitud enérgica y su personalidad extrovertida. Tiene un estilo de rap y a menudo se muestra confiada y segura de sí misma. Pearl tiene un diseño único y llamativo, con un cabello rubio en punta y una corona en la cabeza.</p>
+		<p>Marina: Es una Octoling, lo que la hace única en comparación con la mayoría de los personajes principales del juego, que son Inklings. Marina es conocida por su calma y su inteligencia. A menudo tiene un papel más reflexivo y tranquilo en comparación con Pearl. Marina es una ingeniera talentosa y también es conocida por su habilidad para mezclar música.</p>
+		<p>Juntas, Pearl y Marina forman Off the Hook y cumplen roles similares a los de las Squid Sisters en el juego. Son presentadoras de noticias, comentaristas de eventos y también actúan como cantantes y artistas en el mundo de Splatoon. Off the Hook es muy popular entre los habitantes del mundo de Splatoon y tiene una gran base de fanáticos dentro del juego. Su música y sus actuaciones son una parte importante de la cultura pop del mundo de Splatoon, y han ganado popularidad tanto dentro como fuera del juego.</p>
+
+		<h2>quien es <p id="frye">el clan surimi</p></h2>
+		<img id="s_f_r_cut" src="images/clan_surimi.jpg" alt="que no jalo chamaco tonto!!">
+		<p>Ellos son los anfitriones de Tintelia en la Onda (o Radio caótica), el noticiero de Tintelia, y también organizan Festivales, con Megan, Angie, y Rayan representado sus equipos respectivos en cada festival, asumiendo los roles de las Calamarciñas y Cefalopop de los juegos anteriores de la serie Splatoon. Durante sus transmisiones, Megan y Angie se sientan en cojines en el suelo por el lado izquierdo y frente a la audiencia, mientras Rayan sostiene una televisión larga por el lado derecho en la que aparecen los anuncios de las noticias, también frente a la audiencia.</p>
+		<p>La sección de Anarchy Splatcast de Splatoon 3 será presentada por el grupo conocido como Deep Cut, el cual está conformado por Big Man, Shiver, y Frye. Aquí, los jugadores recibirán constantes noticias sobre los eventos y anuncios que se lleven a cabo para este juego</p>
+		<p>Deep Cut desempeña roles similares en Splatoon 3 a los de Squid Sisters y Off the Hook en juegos anteriores. Proporcionan actualizaciones sobre los escenarios y modos disponibles actualmente y otras noticias y anuncios a través de su programa de radio y televisión Anarchy Splatcast. También organizan y actúan en Splatfests, con Shiver, Frye y Big Man representando cada uno de los tres equipos en cada Splatfest.</p>
+
+	</div>
+
+	<div>
+		<h2>albumes que han realizado las idols</h2>
+		<h2>squid sisters</h2>
+		<ul id="marie">
+			<li></li><img src="images/ss_album1.jpg">
+			<li></li><img src="images/ss_album2.jpg">
+			<li></li><img src="images/ss_album3.jpg">
+			<li></li><img src="images/ss_album4.jpg">
+			<li></li><img src="images/ss_album5.jpg">
+			<li></li><img src="images/ss_album6.jpg">
+		</ul>
+		<h2>off the hook</h2>
+		<ul id="marina">
+			<li></li><img src="images/otf_album1.jpg">
+			<li></li><img src="images/otf_album2.jpg">
+			<li></li><img src="images/otf_album3.jpg">
+			<li></li><img src="images/otf_album4.jpg">
+			<li></li><img src="images/otf_album5.jpg">
+		</ul>
+		<h2>deep cut</h2>
+		<ul id="shiver">
+			<li></li><img src="images/dc_album1.jpg">
+			<li></li><img src="images/dc_album2.jpg">
+		</ul>
+	</div>
+
+</body>
+</html>  

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>armas y como funcionan</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+
+		html, body{
+			height: 100%;
+		}
+
+		body {
+			font-family: arial, sans-serif;
+			font-size: 1.125rem;
+			color: #fff;
+			}
+
+	#video-background {
+    	position: fixed;
+      	right: 0;
+    	bottom: 0;
+    	min-width: 100%;
+   		min-height: 100%;
+      	width: auto;
+      	height: auto;
+      	z-index: -100;
+   		}
+   		#header img {
+		width: 15%;
+		float: left;
+	}
+   	#header {
+	background-color: #0ae8ffb5;
+	color: #fff;
+	font-size: 2.30rem;
+	text-align: center;
+	padding: 0 0;
+	margin-bottom: 15px;
+	overflow: hidden;
+	}
+	#header p {
+		text-align: center;
+	}
+	img {
+	float: inline-start;
+}
+	#orange {
+	width: 100%;
+	height: 55px;
+	background-color: #0078ff;
+	margin-bottom: 12px;
+	background-image: repeating-linear-gradient(20deg, #ffa906, #fd0909 20px);
+}
+	#blue {
+	width: 100%;
+	height: 55px;
+	background-color: #0078ff;
+	margin-bottom: 12px;
+	background-image: repeating-linear-gradient(-19deg, #2506ff, #00cfff 20px);
+	}
+
+	#green{
+		width: 100%;
+		height: 55px;
+		background-color: #adff2f;
+		background-image: repeating-radial-gradient(closest-side at 150px 25px, #75a826, #38ff00 40%);
+	}
+
+	#pink {
+		width: 100%;
+		height: 55px;
+		background-color: #adff2f;
+		background-image: repeating-radial-gradient(closest-side at 150px 25px, #af00ff, #ff00a7 40%);
+	}
+
+	#yellow {
+		width: 100%;
+		height: 55px;
+		background-color: #0078ff;
+		margin-bottom: 12px;
+		background-image: repeating-linear-gradient(20deg, #9aff06, #fff00a 20px);
+		color: #000;
+	}
+
+	#purple {
+		width: 100%;
+		height: 70px;
+		background-color: #0078ff;
+		margin-bottom: 12px;
+		background-image: repeating-linear-gradient(-19deg, #2506ff, #8000ff 20px);
+	}
+/*	listas*/
+ul {
+	display: grid;
+	grid-template-columns: repeat(3, 220px);
+	grid-gap: 170px;
+	margin: 10px;
+	background-color: #00000070;
+}
+
+	</style>
+	</head>
+<body>
+	<!-- cabezera -->
+	<div id="header">
+		<a id="logo" href="index.html"><img src="images/logotipo.png" alt="logotipo"></a>
+		<p>Las armas y su tecnologia</p>
+	</div>
+	<video id="video-background" autoplay muted loop>
+    			<source src="splatoon1_back.mp4" type="video/mp4">
+    		</video>
+	<div>
+		<h1>como funcionas las armas?</h1>
+		<img src="images/plumon_neo.jpg">
+		<p id="orange">En Splatoon, las armas son herramientas fundamentales para cubrir terreno con tinta y derrotar a los oponentes en las batallas. Aquí te explico cómo funcionan:</p>
+		<p id="blue">Disparo de tinta: Todas las armas tienen la capacidad de disparar tinta, ya sea en forma de ráfagas, chorros o salpicaduras, dependiendo del tipo de arma. El objetivo principal es cubrir el terreno con tinta del color del equipo para ganar territorio.</p>
+		<p id="green">Recarga de tinta: Disparar tinta consume tinta del tanque de la arma. Para recargar, los jugadores deben sumergirse en la tinta de su propio color o mantenerse en forma de calamar (Inklings) o pulpo (Octolings) en su propio color de tinta. También pueden presionar un botón específico para realizar una recarga rápida.</p>
+		<p id="pink">Subarmas: Cada arma está equipada con una subarma única, que puede ser una granada, una bomba de succión, un escudo portátil u otras variantes. Estas subarmas proporcionan a los jugadores herramientas adicionales para atacar o apoyar a su equipo.</p>
+		<p id="yellow">Arma especial: Además de la subarma, cada arma tiene asociada un arma especial única, que se carga gradualmente a medida que el jugador cubre terreno y elimina a oponentes. Estas armas especiales incluyen ataques devastadores como el Inkzooka, el Inkstrike o la Bomba de Tinta.</p>
+		<p id="purple">Variedad de armas: Splatoon ofrece una amplia gama de armas con diferentes características y estilos de juego. Hay armas de corto alcance como los rodillos, armas de largo alcance como los cargadores, armas de disparo rápido como las pistolas y armas de asalto como los paraplustros. Cada tipo de arma tiene sus propias ventajas y desventajas, lo que permite a los jugadores elegir el estilo que mejor se adapte a su habilidad y estrategia.</p>
+	</div>
+	<div>
+		<h2>tipos de armas y movimientos especiales</h2>
+		<ul>
+			<li><img src="images/rodillo.jpg">Rodillos: Armas de corto alcance que permiten a los jugadores cubrir grandes áreas con tinta rápidamente al rodar sobre el terreno.</li>
+			<li><img src="images/charger.jpg">Cargadores: Armas de largo alcance que disparan chorros de tinta con precisión, ideales para atacar a los oponentes desde la distancia.</li>
+			<li><img src="images/nzap.jpg">Pistolas: Armas versátiles con una tasa de disparo rápida que pueden cubrir terreno rápidamente y son efectivas tanto en combate cercano como a distancia media.</li>
+			<li><img src="images/aerografo.jpg">Aerografos: Armas automáticas que disparan ráfagas de tinta a alta velocidad, excelentes para controlar áreas y mantener a raya a los oponentes.</li>
+			<li><img src="images/telelanzamotas.jpg">Telelanzamontas: Armas de asalto que disparan proyectiles de tinta en forma de bolas o ráfagas, proporcionando una combinación de potencia de fuego y movilidad.</li>
+			<li><img src="images/brush.jpg">Pinceles: Armas de corto alcance que permiten a los jugadores barrer rápidamente la tinta sobre el terreno, lo que las hace efectivas para la cobertura rápida y los ataques sorpresa.</li>
+			<li><img src="images/heavy.jpg">Gatling gun: Armas pesadas que requieren una breve carga antes de disparar ráfagas de tinta de alta potencia y alcance.</li>
+			<li><img src="images/dualies.jpg">Dualies: Un tipo especial de arma que permite a los jugadores disparar rápidamente en dos direcciones mientras realizan esquivas ágiles.</li>
+			<li><img src="images/splatana.jpg">Splatana: armas de empoñadura de tipo katana con el cual lanza en linea recta tinta y se puede cargar un ataque de corta distancia con el cual de puede derrotar a cualqiera de ese golpe</li>
+			<li><img src="images/slosher.jpg">Slosher: este es una cubeta con un rango medio pero de dispercion de tinta muy imprecionante con el cual tiene de habilidad de cubrir un semicirculo a tu alrededor</li>
+			<li><img src="images/bow.jpg">Arcotomizador: este es un arco de tinta con el cual es a rango de larga distancia,este se enbasa de 3 flechas que se pueden disparar ya sea en linea horizontal o vertical,al ser disparadas tienen 2 segundos de delay para que estas despues exploten</li>
+		</ul>
+	</div>
+</body>
+</html>	

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>que son los inklings?</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+
+		html, body{
+			height: 100%;
+		}
+
+		html {
+			box-sizing: border-box;
+		}
+		#video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+    }
+    #header img {
+		width: 15%;
+		float: left;
+	}
+   	#header {
+	background-color: #0ae8ffb5;
+	color: #fff;
+	font-size: 2.30rem;
+	text-align: center;
+	padding: 0 0;
+	margin-bottom: 15px;
+	overflow: hidden;
+	}
+	#header p {
+		text-align: center;
+	}
+
+		/*modificar el modelo de cajas de css*/
+		*, *:before, *:after {
+			box-sizing: border-box;
+		}
+
+		/*resetear margenes y padding*/
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: "Lucida Sans", sans-serif;
+			font-size: 1.125rem;
+			}
+
+		/*Estilos de cabezera*/
+		#header {
+			background-color: #0ae8ffb5;
+			color: #fff;
+			font-size: 2rem;
+			text-align: left;
+			padding: 0 0;
+			margin-bottom: 15px;
+		}
+
+		/*Rejilla flexible*/
+		#container {
+			width: 100%;
+			max-width: 1366px;
+			padding: 12px 1.46% /*rellenos laterales: 20px/1366px*/;
+		}
+
+		/*	dividir contemido en columnas*/
+		/*	lateral izquierdo*/
+
+		#side {
+			width: 25%; /*1366px x 0.25= 341.5*/
+			float: left;
+		}
+
+		/*	menu de navegacion*/
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		ul li {
+			background-color: #33b5e5;
+			color: #fff;
+			padding: 8px 3.51%; /*12px / 341.5px*/
+			margin-bottom: 8px;
+			box-shadow: 0 1px 1px #00001f;
+		}
+
+		ul li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		ul li:hover {
+			background-color: #0099cc;
+		}
+
+		#mainContent {
+			width: 75%; /*13666 x 0.75 = 1024.5px*/
+			float: left;
+			padding-left: 1.17%;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			color: #fff;
+			text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5);
+		}
+
+		#mainContent p {
+			font-size: 0.93rem;
+			text-align: justify;
+			line-height: 1.6;
+			margin-bottom: 12px;
+			color: #fff;
+			text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
+		}
+
+		#mainContent img {
+			max-width: 38%;
+			float: left;
+			margin-left: 0.48%;
+			margin-right: 1.65%;
+			margin-bottom: 4px;
+		}
+
+		#header img {
+			width: 15%;
+		}
+
+		/*	estilos del pie de pagina*/
+		.clearfix {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		#footer {
+			background-color: #555;
+			color: #fff;
+			font-size: 0.90rem;
+			text-align: center;
+			padding: 20px 0;
+		}
+
+		/*	aplicar los siguientes estilos cuando el area  de visualizacion sea igual o menor que 600px*/
+		@media screen and (max-width: 600px){
+			#side, #mainContent {
+				width: 100%;
+				padding: 0;
+			}
+
+			h1 {
+				font-size: 1.45rem;
+				margin-top: 12px;
+			}
+
+		/*	aplicar los siguientes estilos cuando el area de visualizacion sea igual o mayor que 1366px*/
+		@media screen and (min-width: 1366px) {
+			#container {
+				margin: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- cabezera -->
+	<div id="header">
+		<a id="logo" href="index.html"><img src="images/logotipo.png" alt="logotipo"></a>
+		<p>Que son los inkling y octolings?</p>
+	</div>
+	<video id="video-background" autoplay muted loop>
+    			<source src="Splatoon 3 fondo.mp4" type="video/mp4">
+    		</video>
+	<!-- contenidos -->
+	<div id="container">
+	<!-- lateral y menu de navegacion -->
+		<div id="side">
+			<ul id="menu">
+				<li>inicio</li>
+				<li>categorias</li>
+				<li>acerca de</li>
+				<li>contacto</li>
+			</ul>
+		</div>
+
+		<!-- contenido principal -->
+		<div id="mainContent">
+			<h1>que son los inklings y octolings?</h1>
+			<img src="images/splatoon2.jpg" alt="splatoon_image" >
+			<p>los inklings y octolings, son la evolucion superior de los calamares y los pulpos, estos tuvieron la evolucion luego de que hubiera un derretimiento en los glaciares en el año 12,000 (enbase a la historia del juego)</p>
+			<p>Inklings: Son criaturas humanoides que pueden transformarse entre una forma humana y una forma de calamar. Tienen la capacidad de disparar tinta de diversos colores y usarla para cubrir el terreno, así como para atacar a sus oponentes. Los Inklings son los protagonistas principales de la serie Splatoon y son conocidos por su participación en las batallas de pintura.</p>
+			<p>Octolings: Son criaturas similares a los Inklings, pero en lugar de tener aspecto de calamar, tienen rasgos de pulpo. Aunque originalmente se los presentó como antagonistas en la campaña para un jugador de Splatoon, posteriormente se les dio un papel más destacado como personajes jugables en Splatoon 2 y en expansiones posteriores. Los Octolings poseen habilidades similares a las de los Inklings y también participan en las batallas de pintura.</p>
+			<p>La evolución de los Octolings en la serie Splatoon se produjo principalmente en Splatoon 2 y en la expansión "Octo Expansion". En Splatoon 2, los Octolings fueron introducidos como enemigos controlados por la inteligencia artificial en el modo para un jugador y en ciertos modos multijugador. Más tarde, con la Octo Expansion</p>
+			<img src="images/back_1.5.jpg" alt="splatoon_image" >
+			<p>se añadió la posibilidad de jugar como Octolings en el modo multijugador, lo que amplió su papel en la serie y permitió a los jugadores experimentar el juego desde su perspectiva. Esta expansión también agregó más profundidad a la historia de los Octolings y exploró su relación con los Inklings y la sociedad de Splatoon en general.</p>
+			<p> La trama del juego se desarrolla en un futuro post-apocalíptico donde los humanos ya no son la especie dominante, y en su lugar, criaturas marinas antropomórficas como los Inklings y los Octolings han surgido como las principales formas de vida inteligente</p>
+			<p>En el mundo de Splatoon, la rivalidad entre los Inklings y los Octolings tiene sus raíces en eventos históricos como el Gran Turf War. Aunque no se proporcionan detalles específicos sobre cómo comenzó esta rivalidad, se insinúa que ha existido durante generaciones y ha llevado a enfrentamientos periódicos entre las dos razas.</p>
+			<p>El Gran Turf War es un evento crucial en la historia del mundo de Splatoon, durante el cual los Inklings y los Octolings lucharon por el control de la ciudad de Inkopolis y otras áreas importantes. Este conflicto marcó el surgimiento de los Inklings como la especie dominante en la superficie, mientras que los Octolings fueron relegados a vivir en el subsuelo, en la región conocida como el "Subterráneo Profundo".</p>
+			<p>Aunque el Gran Turf War terminó hace tiempo en el contexto del juego, las tensiones entre los Inklings y los Octolings persisten y se reflejan en las batallas de pintura y en la rivalidad entre los personajes. Además, eventos como la aparición de los Octolings como enemigos en el modo para un jugador de Splatoon sugieren que la rivalidad entre estas dos razas es un elemento importante en la historia del mundo de Splatoon y continúa influyendo en los eventos presentes del juego.</p>
+		</div>	
+	</div>
+
+	<!-- pie de pagina -->
+	<div id="footer" class="clearfix">
+		<small>Derechos Reservados</small>
+	</div>
+
+</body>
+</html>  
