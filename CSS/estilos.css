@@ -308,3 +308,102 @@ footer {
 	color: #c0bcbc;
 	padding-top: 8px;
 }
+/*medias queries*/
+@media screen and (max-width: 3840px) {
+	.container {
+		width: 91%;
+	max-width: 3840px;
+}
+}
+/*aplicar los siguientes estilos cuando el tamaño del viewport sea igual o menor que 1920px*/
+@media screen and (max-width: 1920px) {
+	.container {
+	max-width: 1920px;
+	}
+}
+/*aplicar los siguientes estilos cuando el tamaño del viewport se encuentre en un rango de 960px - 1199px*/
+
+@media screen and (min-width:960px) and (max-width: 1199px) {
+	.col h3 {
+	font-size: 1.05rem;
+	}
+
+	h2 {
+	font-size: 1.43rem;
+	}
+}
+/*aplicar los siguientes estilos cuando el tamaño del viewport se encuentre en un rango de 600px - 959px*/
+@media screen and (max-width:959px) {
+	#intro {
+	flex-flow: column wrap;
+}
+video {
+	width: 249px;
+	right: 215px;
+	top: 2837px;
+}
+h1 {
+	font-size: 3.3rem;
+}
+#descripcion {
+	flex-basis: 100%;
+	padding: 0 0 0 0;
+	flex-grow: 0;
+}
+article > section:nth-child(2) {
+	padding: 10px 0;
+}
+#seccionDos {
+	flex-flow: column wrap;
+}
+.col {
+	padding: 30px 0;
+}
+#seccionTres {
+	display: flex;
+	flex-flow: column wrap;
+}
+#seccionTres a {
+	padding: 12px 0;
+	width: 100%;
+	text-align: center;
+}
+video {
+	flex-basis: 100%;
+	width: 100%;
+	align-self: flex-start;
+}
+article > section:nth-child(4) {
+	padding: 30px 0 0;
+}
+#seccionCuatro {
+	flex-flow: column;
+}
+#seccionCinco {
+	text-align: center;
+}
+}
+/*aplicar los siguientes estilos cuando el tamaño del viewport sea igual o menor que 659px*/
+@media screen and (max-width: 659px) {
+	#logo, #infoContacto {
+	width: 100%;
+	text-align: center;
+	margin: 5px auto;
+	}
+	#piedePagina {
+	text-align: center;
+	}
+	.nav {
+	float: none;
+	}
+	.nav li {
+	display: block;
+	margin: 20px 0;
+	}
+	.copyright {
+	float: none;
+	border-top: 1px solid #3e3e3e;
+	margin-top: 30px;
+	}
+
+}
